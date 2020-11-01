@@ -1,16 +1,12 @@
 ---
-- hosts: web
+- hosts: devops
+  become : true
+
   tasks:
-   - name: set folder permissions
-     file:
-       path: /usr/share/tomcat/webapps/
-       state: directory
-       mode: 0775
-       
    - name : copy the build artifacts of maven into webserver
      copy:
-       src: /tmp/kotinew.war
-       dest: /usr/share/tomcat/webapps/
+       src: /tmp/hello.war
+       dest: /opt/tomcat/webapps/
    - name: restart tomcat server
      service:
         name: tomcat
