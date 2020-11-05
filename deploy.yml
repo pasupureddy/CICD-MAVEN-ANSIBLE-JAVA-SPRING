@@ -10,7 +10,7 @@
 
 
    - name: restart apache tomcat
-     shell: /opt/bitnami/ctlscript.sh restart apache
+     shell: sudo /opt/bitnami/ctlscript.sh restart apache
 
      register: command_output
 
