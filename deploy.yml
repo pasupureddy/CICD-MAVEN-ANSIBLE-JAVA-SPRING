@@ -5,7 +5,7 @@
   tasks:
    - name : copy the build artifacts of maven into webserver
      copy:
-       src: /tmp/hello3.war
+       src: /tmp/hello4.war
        dest: /opt/bitnami/tomcat/webapps/
 
 
