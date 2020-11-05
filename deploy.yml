@@ -1,16 +1,20 @@
 ---
-- hosts: devops
+- hosts: web
   become : true
 
   tasks:
    - name : copy the build artifacts of maven into webserver
      copy:
-       src: /tmp/hello.war
-       dest: /opt/tomcat/webapps/
-   - name: restart tomcat server
-     service:
-        name: tomcat
-        state: started
+       src: /tmp/hello3.war
+       dest: /opt/bitnami/tomcat/webapps/
+
+
+   - name: restart apache tomcat
+     shell: sudo /opt/bitnami/ctlscript.sh restart apache
+
+     register: command_output
+
+   - debug: msg="{{command_output.stdout}}"
 
    
      
