@@ -14,7 +14,7 @@
 <nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container">
 	<div class="navbar-header">
-		<a class="navbar-brand" href="#">DEVOPS 9 DEMO SITE</a>
+		<a class="navbar-brand" href="#">New Changes by Koti and Praveen</a>
 	</div>
   </div>
 </nav>
@@ -28,7 +28,7 @@
 		</c:if>
 
 		<c:if test="${empty name}">
-			New changes Deployed 27th Sep 2020
+			New changes Deployed on 6th nov 2020
 		</c:if>
     </p>
     <p>
@@ -41,21 +41,21 @@
 
   <div class="row">
 	<div class="col-md-4">
-		<h2>HELLO</h2>
+		<h2>Hi</h2>
+		<p>Devops</p>
+		<p>
+			<a class="btn btn-default" href="#" role="button">View details</a>
+		</p>
+	</div>
+	<div class="col-md-4">
+		<h2> koti </h2>
 		<p>Devops-9</p>
 		<p>
 			<a class="btn btn-default" href="#" role="button">View details</a>
 		</p>
 	</div>
 	<div class="col-md-4">
-		<h2>WELCOME TO </h2>
-		<p>Devops-9</p>
-		<p>
-			<a class="btn btn-default" href="#" role="button">View details</a>
-		</p>
-	</div>
-	<div class="col-md-4">
-		<h2>DEVOPS WORLD</h2>
+		<h2>welcome</h2>
 		<p>devops-9</p>
 		<p>
 			<a class="btn btn-default" href="#" role="button">View details</a>
