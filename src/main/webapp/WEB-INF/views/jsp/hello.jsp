@@ -49,13 +49,13 @@
 	</div>
 	<div class="col-md-4">
 		<h2> koti </h2>
-		<p>Devops-9</p>
+		<p>Devops-bathc</p>
 		<p>
 			<a class="btn btn-default" href="#" role="button">View details</a>
 		</p>
 	</div>
 	<div class="col-md-4">
-		<h2>welcome</h2>
+		<h2>welcome again </h2>
 		<p>devops-9</p>
 		<p>
 			<a class="btn btn-default" href="#" role="button">View details</a>
