@@ -3,12 +3,10 @@
   become : true
 
   tasks:
-   - name: rename war file
-     command: mv /tmp/hello-world-1.1.war /tmp/sample.war
   
    - name : copy the build artifacts of maven into webserver
      copy:
-       src: /tmp/sample.war
+       src: /tmp/hello.war
        dest: /opt/bitnami/tomcat/webapps/
 
    - name: restart apache tomcat
