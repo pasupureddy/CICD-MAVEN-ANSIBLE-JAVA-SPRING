@@ -9,7 +9,7 @@
       aws_s3:
         bucket: devops10-koti
         object: /target/hello-world-1.1.war
-        dest: /tmp/hello-world-1.1.war
+        dest: /tmp/hello.war
         mode: get
         aws_access_key: AKIARZ5DU3OEKO7JMFFP
         aws_secret_key: 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
