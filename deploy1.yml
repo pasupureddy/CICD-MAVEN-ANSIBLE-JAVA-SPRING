@@ -1,0 +1,15 @@
+---
+- hosts: all
+  become: true
+
+  tasks: 
+   - name: check connectivity
+     ping:
+
+   - name: copy war file to tomcat server
+     copy: 
+       src: /var/lib/jenkins/workspace/myfirstjob/target/hello-world-1.1.war
+       dest: /usr/local/tomcat/webapps/
+  
+   - name: restart tomcat service
+     shell: service tomcat restart 
