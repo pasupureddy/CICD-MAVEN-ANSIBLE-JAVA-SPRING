@@ -7,7 +7,7 @@
      ping:
 
    - name: move file to /tmp location
-     shell: sudo cp -rf  /var/lib/jenkins/workspace/myfirstjob/target/*.war /tmp/hello.war     
+     command: cp -rf  /var/lib/jenkins/workspace/myfirstjob/target/*.war /tmp/hello.war     
      delegate_to: 127.0.0.1
 
    - name: copy war file to tomcat server
