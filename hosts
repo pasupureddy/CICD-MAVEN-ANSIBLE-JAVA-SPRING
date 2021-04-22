@@ -1,5 +1,5 @@
 [web]
-23.101.30.214 ansible_connection=ssh ansible_ssh_user=azureuser ansible_ssh_pass=Azureuser@12341234 
-
+#23.101.30.214 ansible_connection=ssh ansible_ssh_user=azureuser ansible_ssh_pass=Azureuser@12341234 
+23.101.30.214 
 [DB]
 
