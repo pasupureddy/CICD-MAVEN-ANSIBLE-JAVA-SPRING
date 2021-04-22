@@ -1,6 +1,5 @@
 ---
 - hosts: web
-  become : true
 
   tasks:
   
