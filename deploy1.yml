@@ -14,6 +14,7 @@
      copy: 
        src: /var/lib/jenkins/workspace/myfirstjob/target/hello-world-1-1.war 
        dest: /usr/local/tomcat/webapps/hello.war
+       remote_src: yes
   
    - name: restart tomcat service
      shell: service tomcat restart 
