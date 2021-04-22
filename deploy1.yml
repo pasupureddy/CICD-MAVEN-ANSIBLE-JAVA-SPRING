@@ -6,14 +6,14 @@
    - name: check connectivity
      ping:
 
-   - name: reneame
-     shell: cp -rf  /var/lib/jenkins/workspace/myfirstjob/target/*.war /tmp/hello.war     
-     delegate_to: 127.0.0.1
+  # - name: reneame
+  #   shell: cp -rf  /var/lib/jenkins/workspace/myfirstjob/target/*.war /tmp/hello.war     
+  #   delegate_to: 127.0.0.1
 
    - name: copy war file to tomcat server
      copy: 
-       src: /tmp/hello.war
-       dest: /usr/local/tomcat/webapps/
+       src: /var/lib/jenkins/workspace/myfirstjob/target/hello-world-1-1.war 
+       dest: /usr/local/tomcat/webapps/hello.war
   
    - name: restart tomcat service
      shell: service tomcat restart 
