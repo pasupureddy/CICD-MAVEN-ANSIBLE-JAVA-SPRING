@@ -12,7 +12,7 @@
 
    - name: copy war file to tomcat server
      copy: 
-       src: /var/lib/jenkins/workspace/myfirstjob/target/hello-world-1.1.war
+       src: /var/lib/jenkins/workspace/my-ci-cd/target/hello-world-1.1.war
        dest: /usr/local/tomcat/webapps/hello.war
        remote_src: no
   
