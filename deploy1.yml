@@ -13,7 +13,7 @@
    - name: copy war file to tomcat server
      copy: 
        src: /var/lib/jenkins/workspace/my-ci-cd/target/hello-world-1.1.war
-       dest: /usr/local/tomcat/webapps/hello.war
+       dest: /usr/local/tomcat/webapps/hellosai.war
        remote_src: no
   
    - name: restart tomcat service
