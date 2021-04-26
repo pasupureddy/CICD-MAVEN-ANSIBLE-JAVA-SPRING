@@ -14,7 +14,7 @@ public class HelloController {
 	public String printWelcome(ModelMap model) {
 
 		model.addAttribute("message", "devops demo to Shiva");
-		return "hello Shiva";
+		return "hello";
 
 	}
 
