@@ -13,8 +13,8 @@ public class HelloController {
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String printWelcome(ModelMap model) {
 
-		model.addAttribute("message", "devops demo to Praveen");
-		return "hello";
+		model.addAttribute("message", "devops demo to Shiva");
+		return "hello Shiva";
 
 	}
 

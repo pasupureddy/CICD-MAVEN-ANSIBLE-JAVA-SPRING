@@ -14,7 +14,7 @@
 <nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container">
 	<div class="navbar-header">
-		<a class="navbar-brand" href="#">New Changes by Koti and Praveen</a>
+		<a class="navbar-brand" href="#">New Changes by Koti and Shiva</a>
 	</div>
   </div>
 </nav>
@@ -28,7 +28,7 @@
 		</c:if>
 
 		<c:if test="${empty name}">
-			New changes Deployed on 6th nov 2020
+			New deployment by Koti on 4th Aprl 2021
 		</c:if>
     </p>
     <p>
@@ -42,21 +42,21 @@
   <div class="row">
 	<div class="col-md-4">
 		<h2>Hi</h2>
-		<p>Devops</p>
+		<p>Devops Gurus</p>
 		<p>
 			<a class="btn btn-default" href="#" role="button">View details</a>
 		</p>
 	</div>
 	<div class="col-md-4">
 		<h2> koti </h2>
-		<p>Devops-bathc</p>
+		<p>Devops-batch-XI</p>
 		<p>
 			<a class="btn btn-default" href="#" role="button">View details</a>
 		</p>
 	</div>
 	<div class="col-md-4">
 		<h2>welcome again </h2>
-		<p>devops-9</p>
+		<p>devops-11</p>
 		<p>
 			<a class="btn btn-default" href="#" role="button">View details</a>
 		</p>
