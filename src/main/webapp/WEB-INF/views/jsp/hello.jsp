@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Maven + Spring MVC</title>
+<title>Great Coder Devops Demo</title>
 
 <spring:url value="/resources/core/css/hello.css" var="coreCss" />
 <spring:url value="/resources/core/css/bootstrap.min.css" var="bootstrapCss" />
@@ -28,7 +28,7 @@
 		</c:if>
 
 		<c:if test="${empty name}">
-			New deployment by Koti on 4th Aprl 2021
+			New deployment by Koti on June-17-2021
 		</c:if>
     </p>
     <p>
@@ -41,14 +41,14 @@
 
   <div class="row">
 	<div class="col-md-4">
-		<h2>Hi</h2>
+		<h2>Hello</h2>
 		<p>Devops Gurus</p>
 		<p>
 			<a class="btn btn-default" href="#" role="button">View details</a>
 		</p>
 	</div>
 	<div class="col-md-4">
-		<h2> koti </h2>
+		<h2> Greatcoder </h2>
 		<p>Devops-batch-XI</p>
 		<p>
 			<a class="btn btn-default" href="#" role="button">View details</a>
